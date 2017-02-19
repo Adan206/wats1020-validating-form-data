@@ -54,6 +54,7 @@ $('#order-form').validate({
        "your-zip": {
         required: true,
         maxlength: 5,
+        minlength: 5,
         digits: true
     },
     
